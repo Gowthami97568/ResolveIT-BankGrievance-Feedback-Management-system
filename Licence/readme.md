@@ -1,159 +1,93 @@
-ResolveIT – Bank Grievance & Feedback Management System
-📌 Project Overview
+Frontend
+📌 Overview
 
-ResolveIT is a Java-based Bank Grievance & Feedback Management System developed using Spring Boot.
-This application is designed to manage customer complaints efficiently within a banking system.
+The Frontend of ResolveIT – Bank Grievance & Feedback Management System provides a user-friendly interface for customers and administrators to interact with the system.
 
-The system allows customers to register grievances and provide feedback, while administrators can monitor, update, and resolve complaints in a structured and secure manner.
-
-🎯 Objective
-
-The objective of this project is to:
-
-Digitize the grievance handling process
-
-Improve complaint tracking
-
-Reduce manual work
-
-Ensure faster resolution
-
-Increase customer satisfaction
+It allows users to register complaints, track grievance status, and submit feedback, while enabling administrators to manage and update complaint records efficiently.
 
 🛠️ Technologies Used
 
-Java
+HTML5 – Structure of web pages
 
-Spring Boot
+CSS3 – Styling and layout design
 
-Spring Data JPA
+JavaScript – Client-side interactivity
 
-Hibernate
+Bootstrap (if used) – Responsive UI design
 
-MySQL
+✨ Frontend Features
+👤 User Side
 
-Maven
+User Registration Form
 
-Eclipse IDE
+Login Page
 
-Postman (for API testing)
+Submit Grievance Form
 
-🏗️ Application Type
+View Complaint Status
 
-This is a Backend REST API-based application built using Spring Boot.
-All operations such as complaint submission, status updates, and feedback management are handled through REST APIs.
+Feedback Submission Form
 
-✨ Key Features
+🧑‍💼 Admin Side
 
-🔐 User Registration & Login
+Admin Login
 
-📝 Submit Bank Grievances
+View All Complaints
 
-📊 Track Complaint Status
+Update Complaint Status
 
-🧑‍💼 Admin Management Panel (via APIs)
+Monitor Feedback
 
-🔄 Update Complaint Status (Pending / In Progress / Resolved)
+🔄 Frontend Responsibilities
 
-⭐ Customer Feedback System
+Collect user input (complaints, feedback)
 
-🗄️ Database Integration with MySQL
+Validate form data
 
-📦 RESTful API Architecture
+Send requests to backend APIs
 
-📂 Project Modules
-1️⃣ User Module
+Display response data from backend
 
-Create account
+Provide responsive and clean UI
 
-Submit grievance
+🎨 UI Highlights
 
-View complaint status
+Simple and clean interface
 
-Provide feedback
+Easy navigation
 
-2️⃣ Admin Module
+Form validations
 
-View all grievances
+Status display (Pending / In Progress / Resolved)
 
-Update complaint status
+Responsive layout (mobile-friendly if implemented)
 
-Manage user complaints
+🔗 API Integration
 
-Monitor feedback
+The frontend communicates with the backend using REST APIs:
 
-🗄️ Database Structure
+POST /register
 
-The system includes tables such as:
+POST /login
 
-Users
+POST /complaint
 
-Complaints
+GET /complaint/{id}
 
-Feedback
+PUT /complaint/status
 
-Admin
+POST /feedback
 
-Entity relationships are managed using JPA & Hibernate.
+(API endpoints may vary based on your implementation.)
 
-🔄 How It Works
+🚀 Future Enhancements (Frontend)
 
-User registers/login.
+React-based UI
 
-User submits grievance.
+Dashboard analytics charts
 
-Complaint is stored in MySQL database.
+Dark mode
 
-Admin reviews complaint.
+Real-time notifications
 
-Admin updates status.
-
-User tracks complaint.
-
-User submits feedback after resolution.
-
-🔐 Security Implementation
-
-Role-based access (User/Admin)
-
-Input validation
-
-Exception handling
-
-Structured API responses
-
-📈 Future Enhancements
-
-JWT Authentication
-
-Email notifications
-
-Cloud deployment (AWS/Render)
-
-Swagger API documentation
-
-Frontend integration
-
-🎓 Learning Outcomes
-
-Through this project, I gained knowledge in:
-
-Spring Boot application development
-
-REST API creation
-
-CRUD operations
-
-Exception handling
-
-Database integration
-
-MVC architecture
-
-Backend project structuring
-
-👩‍💻 Developed By
-
-Sanaka Gowthami
-Aspiring Software Developer
-Java & Spring Boot Enthusiast
+Improved UI animations
